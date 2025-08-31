@@ -4,21 +4,21 @@ Market Basket Analysis 🛒
 Author: Rituparna Das
 Date: 2025-08-31
 
-Overview
+#Overview
 
 Market Basket Analysis (MBA) is a data mining technique used to uncover associations or relationships between items that customers frequently purchase together. This project demonstrates the process of performing MBA on a retail dataset to derive actionable insights for cross-selling, bundling, and recommendation systems.
 
-Dataset
+#Dataset
 
 Source: Online Retail Dataset https://archive.ics.uci.edu/dataset/352/online+retail
 
-Description:
+#Description:
 
 Columns include: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 
 Example transaction: customers buying multiple items in a single invoice.
 
-Tools & Technologies
+#Tools & Technologies
 
 Python 3.x
 
@@ -26,11 +26,11 @@ Pandas & NumPy for data manipulation
 
 mlxtend for Apriori and Association Rules
 
-Jupyter Notebook / Google Colab
+ Google Colab
 
 Matplotlib / Seaborn for visualizations
 
-Steps Performed
+#Steps Performed
 
 Data Preprocessing
 
@@ -52,13 +52,11 @@ Generated rules using confidence, lift, and other metrics
 
 Filtered rules to remove irrelevant items (e.g., POSTAGE)
 
-Insights & Analysis
+#Insights & Analysis
 
 Identified strong product-to-product associations
 
 Suggested bundling, cross-sell, and recommendation opportunities
 
-Visualization
 
-Plotted heatmaps, bar charts, and network graphs of associations
 
